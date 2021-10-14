@@ -8,7 +8,7 @@ def syracuse(Nombre,Count,Max) :
             Nombre = Nombre // 2
         else :
             Nombre = Nombre * 3 + 1
-        print(Nombre)
+        print(Count," : ",Nombre)
         Count += 1 
         if Nombre >= Max :
             Max = Nombre
@@ -16,6 +16,6 @@ def syracuse(Nombre,Count,Max) :
 Nombre = int (input("Entre le Nombre :"))
 Count = int
 Max = int
-print(Nombre)
+print(Count," : ",Nombre)
 Count,Max = syracuse(Nombre,0,0)
 print("La durée du vol pour ",Nombre," est de ",Count,"et son altitude est de",Max,".")
